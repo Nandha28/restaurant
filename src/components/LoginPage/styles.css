@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .app {
+    height: 100vh;
+    background-image: url("C:\Users\student\Downloads\resto.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .login-page {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container {
+    max-width: 400px;
+    margin: auto;
+    
+  }
+  
+  .login-form,
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #ff7e05;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #fa4904;
+  }
+  
